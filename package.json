@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-week-I-test",
+  "version": "1.0.0",
+  "description": "The repo for bootcamp week I",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quantumlap-001/bootcamp-week-I-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quantumlap-001/bootcamp-week-I-test/issues"
+  },
+  "homepage": "https://github.com/Quantumlap-001/bootcamp-week-I-test#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
