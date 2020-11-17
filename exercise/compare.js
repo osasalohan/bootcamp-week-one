@@ -1,10 +1,11 @@
+const hash = require("./hash");
+
 /**
- * Write a function that compares two value for strict equlity
- * The function takes in two values. The first value is the string to be caompare
- * and the second value is the has value to compare against
  *
- * You function must cover all edge cases
- *
- *
- * Tip: use the crypto module in nodeJS
- * */
+ * @param {*} val1 is a string to be hashed
+ * @param {*} val2 is a hash
+ * returns equality between string and hash
+ */
+const compare = (val1, val2) => hash(val1) === val2;
+
+module.exports = compare;

@@ -1,7 +1,16 @@
+const crypto = require("crypto");
+const secret = "abcdefg";
+
 /**
- * Write a function that hash a string value
- * You function must cover all edge cases
  *
- *
- * Tip: use the crypto module in nodeJS
- * */
+ * @param {*} val is a string to be hashed
+ * returns hash
+ */
+const hash = (val) => {
+  if (typeof val === "string") {
+    return crypto.createHmac("sha256", secret).update(val).digest("hex");
+  }
+  return "value is not a string";
+};
+
+module.exports = hash;
