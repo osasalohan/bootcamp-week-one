@@ -54,5 +54,3 @@ const html = new DocumentNode([head, body]);
 const document = html;
 
 module.exports = document;
-
-console.log(typeof document);
